@@ -36,9 +36,9 @@ return array(
                 )
             ),
             'say_my_name' => array(
-                'type' => 'Literal',
+                'type' => 'Method',
                 'options' => array(
-                    'route' => '/greeter/say-my-name',
+                    'verb'  => 'post',
                     'defaults' => array(
                         'controller' => 'Greeter\Controller\Greeter',
                         'action'     => 'sayMyName',
